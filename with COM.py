@@ -26,4 +26,4 @@ if __name__ == "__main__":
     app.exec_()
 
 ''' add from my laptop'''
-# add information
+# add information 11
