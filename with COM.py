@@ -24,3 +24,6 @@ if __name__ == "__main__":
     myWindow = MyWindow()
     myWindow.show()
     app.exec_()
+
+''' add from my laptop'''
+# add information 1111
