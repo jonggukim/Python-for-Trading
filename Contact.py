@@ -50,7 +50,7 @@ def print_menu():
 
 # load from saved datebase file which is stored information about contract details.
 def load_contact(contact_list):
-    f = open("contact_db.txt", "rt")
+    f = open("C:\\Users\\jongguk\PycharmProjects\\Python-for-Trading\\contact_db.txt", "rt")
     lines = f.readlines()
     num = len(lines) / 4
     num = int(num)
@@ -68,7 +68,7 @@ def load_contact(contact_list):
 # save into contact.databse when you close this class.
 
 def store_contact(contact_list):
-    f = open("contact_db.txt", "wt")
+    f = open("C:\\Users\\jongguk\PycharmProjects\\Python-for-Trading\\contact_db.txt", "wt")
     for contact in contact_list:
         f.write(contact.name + '\n')
         f.write(contact.phone_number + '\n')
